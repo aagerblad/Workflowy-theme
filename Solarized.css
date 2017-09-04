@@ -1,0 +1,71 @@
+#header, #keyboardShortcutHelper {
+-webkit-transition: opacity .2s;
+opacity: 0;
+}
+#header:hover, #keyboardShortcutHelper:hover {
+-webkit-transition: opacity .2s;
+opacity: 1;
+}
+#share_buttons {
+display: none;
+}
+#visible {
+background: transparent ;
+margin-top: 0;
+padding-top: 0;
+width: 400px;
+}
+#workflowy *, .editor textarea {
+font-family: "American Typewriter" ;
+font-size: 16px;
+font-weight: normal;
+text-shadow: rgba(255,255,255,.5) 1px 1px;
+}
+.bullet {
+text-indent: 4px;
+}
+.contentBold {
+color: #89DDFF;
+}
+.project.done .contentBold {
+color: #446e7f;
+}
+.contentItalic {
+color: #FFCB6B;
+}
+.project.done .contentItalic {
+color: #7f6535;
+}
+.contentItalic.contentBold {
+color: #C3E88D;
+}
+.project.done .contentItalic.contentBold {
+color: #617446;
+}
+.contentLink {
+background-color: #212121;
+color: #FF5370;
+}
+.contentTag {
+background-color: #212121;
+color: #bb80b3;
+}
+.notes .content {
+color: #F78C6C;
+}
+.page {
+background-color: #212121;
+border: none;
+color: #eee8d5;
+}
+.top,.right,.bottom,.left {
+display: none;
+}
+::before {
+background-color: #212121;
+}
+:root {
+}
+body {
+background-color: #212121;
+}
